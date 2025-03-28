@@ -1,0 +1,12 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0, auto;
+    padding: 10px;
+}
+
+.para {
+    width: 1000px;
+    margin: 0 auto;
+}

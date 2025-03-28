@@ -1,0 +1,49 @@
+
+body {
+    background-color: rgb(255, 216, 221);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.frame.home {
+    width: 100vw; 
+    height: 100vh;
+    border: 10px solid lightcoral;
+    box-sizing: border-box; 
+}
+
+.frame.recipe {
+    width: 100vw;
+    height: 100vh;
+    border: 10px solid lightcoral;
+    box-sizing: border-box;
+}
+
+hr.solid.home {
+    border-top: 3px solid lightcoral;
+    width: 1000px;
+}
+
+hr.solid.recipe {
+    border-top: 3px solid lightcoral;
+    width: 1000px;
+}
+
+hr.solid.foot {
+    border-top: 3px solid lightcoral;
+    width: 1000px;
+}
+
+footer {
+    background-color: rgb(255, 216, 221);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}

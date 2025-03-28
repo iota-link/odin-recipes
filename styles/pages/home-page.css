@@ -1,0 +1,30 @@
+
+.main-title.home {
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.para#home-description {
+    font-size: 32px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.text-divider.recipe-list {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.text-divider.recipe-list::before, .text-divider.recipe-list::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: lightcoral;
+    margin: 5px;
+}
